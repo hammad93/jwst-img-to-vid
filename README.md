@@ -1,5 +1,6 @@
 # jwst-img-to-vid
-Python scripts to download JWST observations and their associated metadata. For novelty research purposes, we create free animations or videos from deep neural networks.
+Python scripts to download JWST observations and their associated metadata. For novelty
+research purposes, we create free animations or videos from deep neural networks.
 
 ## Stable Video Diffusion XL Parameters
 
@@ -15,5 +16,6 @@ the photos for a 576 H x 1024 W pixel image.
  - Condition augmentation factor: 0.02
 
 The current notebook supports frames that are in multiples of 25. Length in time is
-Frames / Frames per second (5 seconds = 50 frames / 10 fps). Increase in condition
-augmentation factor increases "how much can change" in the output video from changing it for the same input.
+Frames / Frames per second (5 seconds = 50 frames / 10 fps). Increase in Condition
+augmentation factor increases how much can change in the output video from changing it
+for the same input as Motion bucket id is the rate of change.
